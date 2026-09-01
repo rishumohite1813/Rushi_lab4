@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: fisrt step
-      run: echo"this is the fisrt step"
+      - name: first step
+        run: echo "this is the first step"
 
-      -name: second step
-      run: echo"this is the second step"
+      - name: second step
+        run: echo "this is the second step"
