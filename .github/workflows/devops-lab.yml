@@ -6,7 +6,6 @@ on:
 jobs:
   echo-steps:
     runs-on: ubuntu-latest
-
     steps:
       - name: first step
         run: echo "this is the first step"
