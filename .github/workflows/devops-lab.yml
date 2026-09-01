@@ -9,7 +9,7 @@ jobs:
 
     steps:
       -name: fisrt step
-      run: echo"this is the fisrt step"background: 
+      run: echo"this is the fisrt step"
 
       -name: second step
       run: echo"this is the second step"
